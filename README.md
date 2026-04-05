@@ -28,11 +28,14 @@ The command structure is nearly identical, making it easy to switch between them
 
 ```bash
 # Run directly from GitHub
-jbang https://github.com/maxandersen/jgdcli/blob/main/src/main/java/main.java --help
+jbang https://github.com/maxandersen/jgdcli/blob/main/src/main/java/jgdcli.java --help
+
+# Install as 'jgdcli' command
+jbang app install https://github.com/maxandersen/jgdcli/blob/main/src/main/java/jgdcli.java
+jgdcli --help
 
 # Or clone and run locally
-jbang src/main/java/main.java --help
-jbang src/main/java/main.java accounts list
+jbang src/main/java/jgdcli.java --help
 ```
 
 ## Requirements

@@ -43,5 +43,5 @@
 // JBang bootstrap for jgdcli - Quarkus Picocli handles entry via @TopCommand
 // 
 // Usage:
-//   jbang main.java --help
-//   jbang https://github.com/maxandersen/jgdcli/blob/main/src/main/java/main.java --help
+//   jbang jgdcli.java --help
+//   jbang https://github.com/maxandersen/jgdcli/blob/main/src/main/java/jgdcli.java --help
