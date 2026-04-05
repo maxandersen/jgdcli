@@ -11,6 +11,13 @@ Use **gdcli** if you prefer Node.js/TypeScript.
 
 The command structure is nearly identical, making it easy to switch between them.
 
+## Agent Skills
+
+For AI coding agents (Claude Code, etc.), install the skill from [maxandersen/skills](https://github.com/maxandersen/skills):
+```bash
+npx skills install maxandersen/skills/jgdcli
+```
+
 ## Features
 
 - Multiple named OAuth credentials
