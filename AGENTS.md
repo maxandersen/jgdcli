@@ -42,7 +42,7 @@ dk.xam.jgdcli/
 
 - **Commands:** Each subcommand is a separate class with `@Command` annotation
 - **Output:** `OutputFormatter` handles `--json` flag (JSON vs TSV output)
-- **Storage:** `AccountStorage` manages OAuth tokens in `~/.jgdcli/`
+- **Storage:** `AccountStorage` manages OAuth tokens in `~/.jgcli/` (shared)
 - **Credentials:** Support multiple named credential sets
 
 ## Adding a New Command
@@ -92,10 +92,10 @@ mvn package
 
 ## Config & Data
 
-- `~/.jgdcli/credentials.json` - Default OAuth client credentials
-- `~/.jgdcli/credentials-<name>.json` - Named credential sets
-- `~/.jgdcli/accounts.json` - Stored account tokens
-- `~/.jgdcli/downloads/` - Default download location
+- `~/.jgcli/credentials.json` - OAuth client credentials (shared with jgccli, jgmcli)
+- `~/.jgcli/credentials-<name>.json` - Named credential sets (shared)
+- `~/.jgcli/accounts-drive.json` - Drive account tokens
+- `~/.jgcli/downloads/` - Default download location
 
 ## Drive Query Syntax (for `ls --query`)
 

@@ -145,10 +145,10 @@ jgdcli url you@gmail.com 1ABC123 1DEF456
 ## Data Storage
 
 ```
-~/.jgdcli/
-├── credentials.json   # OAuth client credentials
-├── accounts.json      # Account tokens
-└── downloads/         # Downloaded files
+~/.jgcli/                        # Shared with jgccli, jgmcli
+├── credentials.json             # OAuth client credentials (shared)
+├── accounts-drive.json          # Drive account tokens
+└── downloads/                   # Downloaded files
 ```
 
 ## Output Format
